@@ -1,0 +1,17 @@
+<!--
+  ~ Copyright (c) 2017 Amlogic, Inc. All rights reserved.
+  ~
+  ~ This source code is subject to the terms and conditions defined in the
+  ~ file 'LICENSE' which is part of this source code package.
+  ~
+  ~ Description:
+  -->
+
+<resources>
+    <string name="app_name">GraphicTestSuite</string>
+    <string name="button0_name">D-0001</string>
+    <string name="button1_name">D-0002</string>
+    <string name="button2_name">D-0003</string>
+    <string name="button3_name">D-0004</string>
+    <string name="hello_amlogic">Hello Amlogic</string>
+</resources>
