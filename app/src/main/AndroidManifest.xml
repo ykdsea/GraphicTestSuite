@@ -7,17 +7,22 @@
   ~ Description:
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.amlogic.shuzema.testtools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.amlogic.graphictestsuite">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@android:style/Theme.Material.Light.DarkActionBar"
+        tools:targetApi="lollipop">
         <activity
-            android:name=".MainActivity"
+            android:name="com.amlogic.graphictestsuite.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,8 +30,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ForceDefaultOrientationActivity"
+            android:name="com.amlogic.graphictestsuite.ForceDefaultOrientation"
             android:screenOrientation="portrait" />
+        <activity android:name=".ComposerTest" />
+        <activity
+            android:name=".SetSurfaceViewParam"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".SurfaceViewActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
     </application>
 
 </manifest>

@@ -7,17 +7,13 @@
  * Description:
  */
 
-package com.amlogic.shuzema.testtools;
+package com.amlogic.graphictestsuite;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-/**
- * Created by Shuze.Ma on 2017/7/31.
- */
-
-public class ForceDefaultOrientationActivity extends Activity {
+public class ForceDefaultOrientation extends Activity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

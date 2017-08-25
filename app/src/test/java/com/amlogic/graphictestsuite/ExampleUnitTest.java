@@ -7,7 +7,7 @@
  * Description:
  */
 
-package com.amlogic.shuzema.testtools;
+package com.amlogic.graphictestsuite;
 
 import org.junit.Test;
 

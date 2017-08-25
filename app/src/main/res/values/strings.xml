@@ -9,9 +9,33 @@
 
 <resources>
     <string name="app_name">GraphicTestSuite</string>
+    <!--main_activity_button-->
     <string name="button0_name">D-0001</string>
     <string name="button1_name">D-0002</string>
     <string name="button2_name">D-0003</string>
     <string name="button3_name">D-0004</string>
+    <string name="button4_name">Composer test</string>
+
     <string name="hello_amlogic">Hello Amlogic</string>
+    <string name="add_layer">Add</string>
+    <string name="show_surface">Start</string>
+    <!--surface_view_param-->
+    <string name="sf_position">Position</string>
+    <string name="sf_size">Size</string>
+    <string name="sf_format">Format</string>
+    <string name="sf_layer_alpha">Layer Alpha</string>
+    <string name="sf_render_type">Render Type</string>
+    <string name="sf_refresh_frames">Refresh Frames</string>
+    <string name="sf_refresh_interval">Refresh Interval</string>
+    <!--button-->
+    <string name="discard_parameter_setting">Abandon</string>
+    <string name="apply_parameter_setting">Apply</string>
+    <!--surface_view_default_param-->
+    <string name="sf_default_position">0,0</string>
+    <string name="sf_default_size">0,0</string>
+    <string name="sf_default_format">0,0</string>
+    <string name="sf_default_alpha">1.0</string>
+    <string name="sf_default_type">0,0</string>
+    <string name="sf_default_frames">0,0</string>
+    <string name="sf_default_interval">0,0</string>
 </resources>
